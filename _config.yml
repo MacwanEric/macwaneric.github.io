@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rob Noble"
+title                    : "Eric Macwan"
 title_separator          : "-"
-name                     : &name "Rob Noble"
-description              : &description "Academic website of Rob Noble"
-url                      : https://robjohnnoble.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Eric Macwan"
+description              : &description "Academic website of Eric Macwan"
+url                      : https://macwaneric.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/robjohnnoble/"
+repository               : "https://github.com/macwaneric/"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "robjohnnoble"
+  username               : "EricMacwan"
 facebook:
   username               :
   app_id                 :
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rob Noble"
+  name             : "Eric Macwan"
   avatar           : "20181017_Robert_color_small.jpg"
-  bio              : "Mathematical modeller in evolution and ecology of cancer"
+  bio              : "Computational Biologist. Interested in Cancer Evolution"
   location         : 
-  employer         : "City, University of London"
+  employer         : "Bangalore, India"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=lDDprHkAAAAJ"
-  email            : "robert.noble@city.ac.uk"
+  email            : "macwan95@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Rob_Noble"
   uri              :
   bitbucket        :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "robjohnnoble"
+  github           : "macwaneric"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "ericmacwan"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/eric-macwan-a59610168/"
   orcid            : "http://orcid.org/0000-0002-8057-4252"
   pinterest        : 
   publons          : "https://publons.com/researcher/1221561/robert-noble"
@@ -110,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "robjohnnoble"
+  twitter          : "EricMacwan"
   vine             :
   weibo            :
   xing             :
