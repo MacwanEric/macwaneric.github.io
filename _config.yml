@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Eric Macwan"
   avatar           : "20181017_Robert_color_small.jpg"
-  bio              : "Computational Biologist. Interested in Cancer Evolution"
+  bio              : "Interested in Cancer Evolution <br> <br> Computational Biologist, <a style='color: black;' href='http://communication.ucsd.edu'>Department of Communication</a> & <a style='color: black;' href='http://hdsi.ucsd.edu'>Halıcıoğlu Data Science Institute</a>" #"Computational Biologist. Interested in Cancer Evolution"
   location         : "Bangalore, India"
   employer         : 
   pubmed           : 
