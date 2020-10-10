@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CV and short bio"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,51 +9,23 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+## Short bio
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+After a first degree in mathematics, I earned my PhD in mathematical biology at the University of Oxford, investigating interrelationships between host population immunity and pathogen population genetics. For my first postdoctoral position, with Michael Hochberg at the Institut des Sciences de l’Evolution de Montpellier, I switched my primary focus from infectious disease to cancer. I chose to pursue a second postdoc in Niko Beerenwinkel’s group at ETH Zurich, within a systems biology department, so as to unite dynamical models of somatic evolution with methods of molecular data analysis and phylogenetic inference. I later took a concurrent postdoc appointment in Hanna Kokko’s group at the University of Zurich, using life history models to understand the evolution of cancer risk as part of the international Arizona Cancer Evolution Center. Since July 2020 I have been a lecturer in applied mathematics at City, University of London, where I am continuing my research at the intersection of mathematical, computational and theoretical biology.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Education and academic employment
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **2020-present: Lecturer in Mathematics at [City, University of London](https://www.city.ac.uk/about/schools/mathematics-computer-science-engineering/mathematics), UK**  
+Mathematical oncology
+* **2018-2020: Postdoctoral researcher (20% contract) with [Hanna Kokko](https://www.ieu.uzh.ch/en/staff/member/kokko_hanna.html) at the University of Zurich, Switzerland**  
+Theoretical ecology, life history theory and the evolution of cancer risk
+* **2017-2020: Postdoctoral researcher (80% contract) with [Niko Beerenwinkel](https://bsse.ethz.ch/department/people/detail-person.MTQ5NDE3.TGlzdC8yNjY5LDEwNjI4NTM0MDk=.html) at ETH Zurich, Switzerland**  
+Computational biology and mathematical models of tumour evolution
+* **2014-2017: Postdoctoral researcher with [Michael Hochberg](https://eec.edu.umontpellier.fr/people/mike-hochberg) at l'Institut des Sciences de l’Evolution de Montpellier, France**  
+Evolution and ecology of cancer
+* **2009-2014: DPhil with [Mario Recker](https://emps.exeter.ac.uk/mathematics/staff/mr386) and [Sunetra Gupta](https://www.zoo.ox.ac.uk/people/professor-sunetra-gupta) at the University of Oxford, UK**  
+Mathematical modelling of infectious disease
+* **1999-2003: Master of Mathematics First Class (Hons) at the University of York, UK**  
+Pure and applied mathematics and statistics
+
+My full CV is available to download [here](/../../files/CV-RobNoble.pdf).

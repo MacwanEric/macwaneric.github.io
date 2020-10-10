@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "openings"
+permalink: /openings/
+author_profile: true
+redirect_from:
+  - /opportunities
+---
+
+{% include base_path %}
+
+Education
+======
+* B.S.
