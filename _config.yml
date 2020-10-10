@@ -83,12 +83,12 @@ author:
   name             : "Eric Macwan"
   avatar           : "20181017_Robert_color_small.jpg"
   bio              : "Computational Biologist. Interested in Cancer Evolution"
-  location         : 
-  employer         : "Bangalore, India"
+  location         : "Bangalore, India"
+  employer         : 
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=lDDprHkAAAAJ"
+  googlescholar    : #"https://scholar.google.com/citations?user=lDDprHkAAAAJ"
   email            : "macwan95@gmail.com"
-  researchgate     :  "https://www.researchgate.net/profile/Rob_Noble"
+  researchgate     : #"https://www.researchgate.net/profile/Rob_Noble"
   uri              :
   bitbucket        :
   codepen          :
@@ -103,9 +103,9 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/eric-macwan-a59610168/"
-  orcid            : "http://orcid.org/0000-0002-8057-4252"
+  orcid            : #"http://orcid.org/0000-0002-8057-4252"
   pinterest        : 
-  publons          : "https://publons.com/researcher/1221561/robert-noble"
+  publons          : #"https://publons.com/researcher/1221561/robert-noble"
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
