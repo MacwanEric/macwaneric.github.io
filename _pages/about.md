@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+I have a Master's Degree in Cell and Molecular Biology. I was previously employed in Dr. Sabarinathan Radhakrishnan's lab at NCBS as a Graduate Trainee. I have experience in large cancer database management and analysis (PCAWG, TCGA). I am skilled in Python, R, and Bash programming languages. Along with this, I have experience in basic molecular biology techniques from my internships done during BS-MS.
+
 I use mathematical and computational models to investigate the evolution and ecology of cancer, in collaboration with experimental biologists and clinicians.
 
 I am establishing a mathematical oncology group at [City, University of London](https://www.city.ac.uk/about/schools/mathematics-computer-science-engineering/mathematics) focussed on four [research themes](research.md):
