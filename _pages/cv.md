@@ -17,4 +17,4 @@ redirect_from:
 
 
 
-My full CV is available to download [here](https://drive.google.com/drive/folders/1_CEKmTxSEIBHtpUG2-Z_D9qs6WsUi00t?usp=sharing).
+My full CV is available to download [here](/../../files/CV-EricMacwan.pdf).
