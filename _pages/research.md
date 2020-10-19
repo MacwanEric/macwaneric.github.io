@@ -15,4 +15,4 @@ My goal is to understand cancer evolution for better early detection methods. Pi
 Gaining insights through understanding cancer as an evolutionary system and selection as a readout, and getting experience in building mathematical and computational approaches in pinpointing driver mutation occurrence order during cancer initiation will help me take further steps in my research direction.
 
 References:
-1. https://www.nature.com/articles/s41586-019-1907-7.
+1. https://www.nature.com/articles/s41586-019-1907-7
