@@ -6,8 +6,7 @@ author_profile: true
 
 ---
 
-{% include base_path %}
-
+#  Research Interest
 
 From my research experience, I have developed a keen interest in understanding tumor evolution. Cancer development, as an evolutionary process within an individual, mirrors species evolution. Tumors evolve by mutation and selection acting on cells in a tissue. Also, the frequency of the mutations present in the DNA of tumor cell populations can be described using the framework of population genetics.
 
