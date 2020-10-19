@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Eric Macwan"
-  avatar           : "20181017_Robert_color_small.jpg"
+  avatar           : "20181017_Eric_color_small.jpg"
   #bio              : "Interested in Cancer Evolution <br> <br> Computational Biologist, <a style='color: black;' href='http://communication.ucsd.edu'>Department of Communication</a> & <a style='color: black;' href='http://hdsi.ucsd.edu'>Halıcıoğlu Data Science Institute</a>" #"Computational Biologist. Interested in Cancer Evolution"
   bio              : "Interested in Cancer Evolution. <br> <br> Computational Biologist" # <a style='color: black;' href='http://communication.ucsd.edu'>Department of Communication</a> & <a style='color: black;' href='http://hdsi.ucsd.edu'>Halıcıoğlu Data Science Institute</a>" #"Computational Biologist. Interested in Cancer Evolution"
   location         : "Bangalore, India"
@@ -106,7 +106,7 @@ author:
   linkedin         : "https://www.linkedin.com/in/eric-macwan-a59610168/"
   orcid            : #"http://orcid.org/0000-0002-8057-4252"
   pinterest        : 
-  publons          : #"https://publons.com/researcher/1221561/robert-noble"
+  publons          : #""
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
