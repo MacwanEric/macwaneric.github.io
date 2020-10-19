@@ -9,10 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-## Short bio
-
-
-
 ## Education and academic employment
 
 I have completed my Master’s degree in Cell and Molecular Biology from The Maharaja Sayajirao University of Baroda, Vadodara, Gujarat in 2018.
