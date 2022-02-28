@@ -12,5 +12,5 @@ main:
   - title: "Videos"
     url: /videos/
     
-  - title: "Openings"
+  - #title: "Openings"
     url: /openings/
