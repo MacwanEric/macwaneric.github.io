@@ -83,7 +83,7 @@ author:
   name             : "Eric Macwan"
   avatar           : "20181017_Eric_color_small.jpg"
   #bio              : "Interested in Cancer Evolution <br> <br> Computational Biologist, <a style='color: black;' href='http://communication.ucsd.edu'>Department of Communication</a> & <a style='color: black;' href='http://hdsi.ucsd.edu'>Halıcıoğlu Data Science Institute</a>" #"Computational Biologist. Interested in Cancer Evolution"
-  bio              : "Interested in Cancer Evolution. <br> <br> Computational Biologist" # <a style='color: black;' href='http://communication.ucsd.edu'>Department of Communication</a> & <a style='color: black;' href='http://hdsi.ucsd.edu'>Halıcıoğlu Data Science Institute</a>" #"Computational Biologist. Interested in Cancer Evolution"
+  bio              : "Interested in Cancer Evolution. <br> <br> Computational Biologist <br> <br> Background in Cell and Molecular Biology <br> <br> ericmacwann@gmail.com" # <a style='color: black;' href='http://communication.ucsd.edu'>Department of Communication</a> & <a style='color: black;' href='http://hdsi.ucsd.edu'>Halıcıoğlu Data Science Institute</a>" #"Computational Biologist. Interested in Cancer Evolution"
   location         : "Bangalore, India"
   employer         : 
   pubmed           : 
