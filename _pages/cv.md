@@ -45,11 +45,9 @@ During my summer internship in Dr. Neelesh Dahanukar’s lab at IISER, Pune, I m
 
 **************************************************************************
 
-Institute of Mathematical Sciences (IMSC), Chennai, India
-
 Supervisor: Dr. Rahul Siddharthan
-
 Position: Research Intern (May 2015 – July 2015)
+Institute: Institute of Mathematical Sciences (IMSC), Chennai, India
 
 I studied computational prediction and characterisation of regulatory sites and cis-regulatory modules. The project involved prototype development (BLAST) and understanding the mathematical background of different alignment softwares. For prototype development, I used Python and probability-based models for predicting transcription factor (TF) binding sites.
 
