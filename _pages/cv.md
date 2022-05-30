@@ -15,7 +15,7 @@ I have a Master’s degree in cell and molecular biology from The Maharaja Sayaj
 
 **************************************************************************
 
-#### National Center of Biological Sciences (NCBS), Bangalore, India  
+## National Center of Biological Sciences (NCBS), Bangalore, India  
 Supervisor: Dr. Sabarinathan Radhakrishnan  
 Position: Graduate Trainee (August 2018 – July 2019)
 
@@ -23,7 +23,7 @@ In order to pursue my goals, I joined Dr. Sabarinathan Radhakrishnan’s lab at 
 
 **************************************************************************
 
-#### Indian Institute of Science Education and Research (IISER), Pune, India  
+## Indian Institute of Science Education and Research (IISER), Pune, India  
 Supervisor: Dr. Sudha Rajamani  
 Position: Master’s Thesis Student(May 2017 – November 2017)
 
@@ -31,7 +31,7 @@ During my Master’s dissertation project in Dr. Sudha Rajamani’s lab at IISER
 
 **************************************************************************
 
-#### Indian Institute of Science Education and Research (IISER), Pune, India  
+## Indian Institute of Science Education and Research (IISER), Pune, India  
 Supervisor: Dr. Neelesh Dahanukar  
 Position: Research Intern (May 2016 – July 2016)
 
@@ -39,7 +39,7 @@ During my summer internship in Dr. Neelesh Dahanukar’s lab at IISER, Pune, I m
 
 **************************************************************************
 
-#### Institute of Mathematical Sciences (IMSC), Chennai, India  
+## Institute of Mathematical Sciences (IMSC), Chennai, India  
 Supervisor: Dr. Rahul Siddharthan  
 Position: Research Intern (May 2015 – July 2015)
 
