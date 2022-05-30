@@ -15,7 +15,7 @@ I have a Master’s degree in cell and molecular biology from The Maharaja Sayaj
 
 **************************************************************************
 
-## National Center of Biological Sciences (NCBS), Bangalore, India  
+## National Centre of Biological Sciences (NCBS), Bangalore, India  
 Supervisor: Dr. Sabarinathan Radhakrishnan  
 Position: Graduate Trainee (August 2018 – July 2019)
 
