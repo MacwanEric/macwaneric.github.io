@@ -40,5 +40,3 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'contrast' }}"; // skin
-@import "minimal-mistakes"; // main partials
