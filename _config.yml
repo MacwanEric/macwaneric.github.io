@@ -115,7 +115,7 @@ author:
   instagram        : #"ericmacwan"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/eric-macwan-a59610168/"
+  linkedin         : #"https://www.linkedin.com/in/eric-macwan-a59610168/"
   orcid            : #"http://orcid.org/0000-0002-8057-4252"
   pinterest        : 
   publons          : #""
@@ -269,7 +269,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Kolkata #Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
