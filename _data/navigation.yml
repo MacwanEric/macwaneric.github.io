@@ -1,16 +1,16 @@
 # main links links
 main:
   - #title: "Research Interests"
-    url: /research/
+    #url: /research/
 
   - #title: "Publications"
-    url: /publications/
+    #url: /publications/
     
   - title: "CV"
     url: /cv/
     
   - #title: "Videos"
-    url: /videos/
+    #url: /videos/
     
   - #title: "Openings"
-    url: /openings/
+    #url: /openings/
