@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV and short bio"
+title: "Education and academic employment" #"CV and short bio"
 permalink: /cv/
 author_profile: true
 redirect_from:
