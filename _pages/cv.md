@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Education and academic employment
+
 
 I have a Master’s degree in cell and molecular biology from The Maharaja Sayajirao University of Baroda, India.
 
