@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Cancer Interest Feed1"
+title: ""
 permalink: /cancer_rss_feed/
 author_profile: true
 redirect_from:
