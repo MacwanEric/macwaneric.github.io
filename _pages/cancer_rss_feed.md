@@ -13,7 +13,7 @@ redirect_from:
 {% capture written_label %}'None'{% endcapture %}
 
 
-#### Note: This page is under construction.
+## Note: This page is under construction.
 
 Testing: 
 I am generating RSS feeds of manuscripts, review articles and news highlights for my research interest topics.  To keep everything in one place, I'm embedding it as a webpage here.
