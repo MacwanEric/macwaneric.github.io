@@ -16,5 +16,5 @@ main:
     #url: /openings/
   
   - title: "Cancer Interest Feed"
-    url: /cancer.rss.feed/
+    url: /cancer_rss_feed/
 
