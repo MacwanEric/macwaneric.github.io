@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /cancer_rss_feed/
+permalink: #/cancer_rss_feed/
 author_profile: true
 redirect_from:
   - /opportunities
