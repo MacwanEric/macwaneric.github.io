@@ -14,7 +14,11 @@ redirect_from:
 I have a Master’s degree in cell and molecular biology from The Maharaja Sayajirao University of Baroda, India.
 
 **************************************************************************
-<img src="/../../files/ncbs_mainbilding.jpg" alt="NCBS Main Building">
+<figure>
+  <img src="/../../files/ncbs_mainbilding.jpg" alt="NCBS Main Building">
+  <figcaption> NCBS Main Building (c) Eric Macwan (2018) </figcaption>
+</figure>
+
 ## National Centre of Biological Sciences (NCBS), Bangalore, India  
 Supervisor: <u> <a href="https://www.ncbs.res.in/faculty/sabari" target="_blank"> Dr. Sabarinathan Radhakrishnan </a> </u>  
 Position: Graduate Trainee (August 2018 – July 2019)
