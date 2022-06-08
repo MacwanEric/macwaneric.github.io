@@ -25,4 +25,4 @@ I am generating RSS feeds of manuscripts, review articles and news highlights fo
     src="https://macwaneric.github.io/cancer.rss.feed/">
 </iframe>
 
-<embed src="https://macwaneric.github.io/cancer.rss.feed/"  width="100%" /> <!type="application/pdf" width="100%" />
+<embed src="https://macwaneric.github.io/cancer.rss.feed/"  width="100%" /> <!type="application/html" width="100%" />
