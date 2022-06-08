@@ -21,7 +21,7 @@ I am generating RSS feeds of manuscripts, review articles and news highlights fo
 If the embedded page below does not load, you can use this link <u><a href="https://macwaneric.github.io/cancer.rss.feed/"> Cancer RSS Feed </a></u>
 <br/>
 
-<iframe src="https://macwaneric.github.io/cancer.rss.feed/" noborder="0" width="830" height="800" scrolling="yes" seamless></iframe>
 
 
-<embed src="https://macwaneric.github.io/cancer.rss.feed/" type="html" width="100%" />
+
+<embed src="https://macwaneric.github.io/cancer.rss.feed/" type="application/pdf" width="100%" />
