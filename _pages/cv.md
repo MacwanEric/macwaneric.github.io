@@ -11,8 +11,10 @@ redirect_from:
 <figure>
   <img src="/../../files/msu_baroda.jpg" alt="MSU Main Building" align="right" width="100" height="100">
   <figcaption> The Maharaja Sayajirao University of Baroda (2021) </figcaption>
-</figure> <br>
-<br> I have a Master’s degree in cell and molecular biology from Dr. Vikram Sarabhai Institute of Cell & Molecular Biology, The Maharaja Sayajirao University of Baroda, India.
+</figure> 
+
+##
+I have a Master’s degree in cell and molecular biology from Dr. Vikram Sarabhai Institute of Cell & Molecular Biology, The Maharaja Sayajirao University of Baroda, India.
 
 **************************************************************************
 <figure>
