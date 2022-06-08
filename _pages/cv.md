@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <figure>
-  <img src="/../../files/msu_baroda.jpg" alt="MSU Main Building" align="left">
+  <img src="/../../files/msu_baroda.jpg" alt="MSU Main Building" align="right" width="100" height="100">
   <figcaption> The Maharaja Sayajirao University of Baroda (2021) </figcaption>
 </figure>
 
