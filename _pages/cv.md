@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <figure>
-  <img src="/../../files/msu_baroda.jpg" alt="MSU Main Building">
+  <img src="/../../files/msu_baroda.jpg" alt="MSU Main Building" align="left">
   <figcaption> The Maharaja Sayajirao University of Baroda (2021) </figcaption>
 </figure>
 
@@ -18,7 +18,7 @@ I have a Master’s degree in cell and molecular biology from Dr. Vikram Sarabha
 
 **************************************************************************
 <figure>
-  <img src="/../../files/ncbs_mainbilding.jpg" alt="NCBS Main Building">
+  <img src="/../../files/ncbs_mainbilding.jpg" alt="NCBS Main Building" align="left">
   <figcaption> NCBS Main Building (c) Eric Macwan (2018) </figcaption>
 </figure>
 
