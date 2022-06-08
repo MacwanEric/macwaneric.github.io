@@ -17,7 +17,7 @@ redirect_from:
 
 Testing: 
 I am generating RSS feeds of manuscripts, review articles and news highlights for my research interest topics.  To keep everything in one place, I'm embedding it as a webpage here.
-
+<iframe src="https://macwaneric.github.io/cancer.rss.feed/" noborder="0" width="830" height="800" scrolling="yes" seamless></iframe>
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
     width="300"
