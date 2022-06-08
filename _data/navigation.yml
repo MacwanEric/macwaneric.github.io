@@ -1,13 +1,16 @@
 # main links links
 main:
+  - title: "Research Experience"
+    url: /cv/
+    
+  - title: "Cancer Interest Feed"
+    url: /cancer_rss_feed/
+
   - #title: "Research Interests"
     #url: /research/
 
   - #title: "Publications"
     #url: /publications/
-    
-  - title: "Research Experience"
-    url: /cv/
 
   - #title: "Videos"
     #url: /videos/
@@ -15,6 +18,5 @@ main:
   - #title: "Openings"
     #url: /openings/
   
-  - title: "Cancer Interest Feed"
-    url: /cancer_rss_feed/
+  
 
