@@ -14,7 +14,7 @@ I have a Master’s degree in cell and molecular biology from Dr. Vikram Sarabha
 **************************************************************************
 <figure>
   <img src="/../../files/ncbs_mainbilding.jpg" alt="NCBS Main Building" align="left">
-  <figcaption> NCBS Main Building (c) Eric Macwan (2018) </figcaption>
+  <figcaption> NCBS Main Building Ⓒ Eric Macwan (2018) </figcaption>
 </figure>
 
 ## National Centre of Biological Sciences (NCBS), Bangalore, India  

@@ -24,7 +24,7 @@ Recently I have added a webpage [Cancer Interest Feed](https://macwaneric.github
 
 <figure>
   <img src="/../../files/sabarilab_grouppic_2018.JPG" alt="Sabarilab Grouppic" align="left" width="100" height="100">
-  <figcaption> Sabarilab (c) Eric Macwan (2018) </figcaption>
+  <figcaption> Sabarilab Ⓒ Eric Macwan (2018) </figcaption>
 </figure>
 
 I learned that deeper understanding comes from deeper knowledge. In simple words the more you read the more you feel confident. But knowledge here is subjective because it comes from both experience and literature. And you can get lost exploring vast literature while losing sight of the goal. For this reason I ask myself how much sense of control I feel over the question/task/project. To feel more sense of control I follow my reading habit described above.
