@@ -44,5 +44,4 @@ Position: Research Intern (May 2015 – July 2015)
 
 I studied computational prediction and characterisation of regulatory sites and cis-regulatory modules. The project involved prototype development (BLAST) and understanding the mathematical background of different alignment softwares. For prototype development, I used Python and probability-based models for predicting transcription factor (TF) binding sites.
 
-**************************************************************************
-My full CV is available to download [here](/../../files/CV-EricMacwan.pdf)
+
