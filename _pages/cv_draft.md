@@ -23,7 +23,7 @@ Recently I have added a webpage [Cancer Interest Feed](https://macwaneric.github
 “If you put effort into things it will work out.” A philosophy my father passed on to me. And it worked really well in school as well as college years. This also explains how our Indian education system works as I was able to fit well with this mindset. My education system trained me to incline more towards mindless hard work. It did help me to see one step ahead but made me go through embarrassing suffering to come up with an idea or approach. This philosophy started crumbling during my research experience as a graduate trainee as my mentor didn’t give me the step-by-step instructions I was used to, and constantly encouraged me to come up with ideas and projects. It was intimidating, confusing and exciting to lead my own research project as I no longer had a decision-maker with more experience to follow. It felt like walking on a bumpy road with troubleshooting, trial and error at every stage. But my excitement and curiosity grew as I started pushing myself to read and think at a deeper level. I consider my stay in Dr. Radhakrishnan’s lab to be the most valuable experience.
 
 <figure>
-  <img src="/../../files/sabarilab_grouppic_2019.JPG" alt="Sabarilab Grouppic" align="left" width="100" height="100">
+  <img src="/../../files/sabarilab_grouppic_2019.jpg" alt="Sabarilab Grouppic" align="left" width="100" height="100">
   <figcaption> Sabarilab Ⓒ (2019) </figcaption>
 </figure>
 
