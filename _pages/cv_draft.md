@@ -23,8 +23,8 @@ Recently I have added a webpage [Cancer Interest Feed](https://macwaneric.github
 “If you put effort into things it will work out.” A philosophy my father passed on to me. And it worked really well in school as well as college years. This also explains how our Indian education system works as I was able to fit well with this mindset. My education system trained me to incline more towards mindless hard work. It did help me to see one step ahead but made me go through embarrassing suffering to come up with an idea or approach. This philosophy started crumbling during my research experience as a graduate trainee as my mentor didn’t give me the step-by-step instructions I was used to, and constantly encouraged me to come up with ideas and projects. It was intimidating, confusing and exciting to lead my own research project as I no longer had a decision-maker with more experience to follow. It felt like walking on a bumpy road with troubleshooting, trial and error at every stage. But my excitement and curiosity grew as I started pushing myself to read and think at a deeper level. I consider my stay in Dr. Radhakrishnan’s lab to be the most valuable experience.
 
 <figure>
-  <img src="/../../files/sabarilab_grouppic_2018.JPG" alt="Sabarilab Grouppic" align="left" width="100" height="100">
-  <figcaption> Sabarilab Ⓒ Eric Macwan (2018) </figcaption>
+  <img src="/../../files/sabarilab_grouppic_2019.JPG" alt="Sabarilab Grouppic" align="left" width="100" height="100">
+  <figcaption> Sabarilab Ⓒ (2019) </figcaption>
 </figure>
 
 I learned that deeper understanding comes from deeper knowledge. In simple words the more you read the more you feel confident. But knowledge here is subjective because it comes from both experience and literature. And you can get lost exploring vast literature while losing sight of the goal. For this reason I ask myself how much sense of control I feel over the question/task/project. To feel more sense of control I follow my reading habit described above.
