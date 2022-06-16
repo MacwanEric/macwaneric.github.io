@@ -5,18 +5,6 @@ main:
     
   - title: "Cancer Interest Feed"
     url: /cancer_rss_feed/
-
-  - #title: "Research Interests"
-    #url: /research/
-
-  - #title: "Publications"
-    #url: /publications/
-
-  - #title: "Videos"
-    #url: /videos/
-    
-  - #title: "Openings"
-    #url: /openings/
   
   
 
