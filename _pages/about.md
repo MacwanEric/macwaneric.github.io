@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+{% include base_path %}
 
 Hi! I’m Eric. I received my B.Sc. and M.Sc in cell and molecular biology from Dr. Vikram Sarabhai Institute of Cell and Molecular Biology at the [Maharaja Sayajirao University of Baroda](https://www.msubaroda.ac.in/Dr_Vikram_Sarabhai_Institute_of_Cell_and_Molecular_Biology), Vadodara, India in 2018. After receiving my M.Sc. degree, I was employed in Dr. Sabarinathan Radhakrishnan's lab at [National Centre for Biological Sciences (NCBS)](https://www.ncbs.res.in/faculty/sabari) as a graduate trainee. I’m a trained molecular biologist with a background in bioinformatics.
 
