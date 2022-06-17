@@ -30,4 +30,4 @@ Recently I have added a webpage [Cancer Interest Feed](https://macwaneric.github
 
 I learned that deeper understanding comes from deeper knowledge. In simple words the more you read the more you feel confident. But knowledge here is subjective because it comes from both experience and literature. Going through a vast amount of literature can be daunting and distracting if the objectives aren’t clear, and this can potentially affect the project. While coding I have to break down the task and scrupulously focus on one task at a time. I also apply this practice in literature search, problem-solving and other parts of my life. From my experience, this is a reliable way to get a grip over workflow. But I am still a novice who is learning and growing from experiences and can't stop romanticising things which makes me wonder.
 
-<center><b>“It is good to be quick, But it is important to be deep. ”
+<center><b>“It is good to be quick, But it is important to be deep.”
