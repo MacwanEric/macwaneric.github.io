@@ -4,8 +4,6 @@ title: ""
 excerpt: "Contact me"
 author_profile: true
 ---
-
-<center><h2>contact</h2></center>
 <figure>
   <img src="/../../files/404errorpage_image.jpg" alt="Eric Macwan" align="right">
   <figcaption> Pretending to sleep Ⓒ Eric Macwan (2019) </figcaption>
