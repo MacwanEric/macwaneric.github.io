@@ -6,5 +6,8 @@ main:
   - title: "Cancer Interest Feed"
     url: /cancer_rss_feed/
   
+  - title: "Contact"
+    url: /contact/
+  
   
 
