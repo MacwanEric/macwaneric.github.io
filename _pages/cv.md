@@ -22,7 +22,7 @@ Supervisor: <u> <a href="https://www.ncbs.res.in/faculty/sabari" target="_blank"
 Position: Graduate Trainee (August 2018 – July 2019)
 Project: Unraveling the zygosity selection and allelic expression imbalance of cancer driver mutations
 
-The products of Dominant-negative mutation (DNM) affect wild-type allele’s lfunction. DNMs in tumour suppressor genes have been reported in multiple cancers and they can drive tumour progression. My work involved fishing and understanding the nature of Dominant Negative Mutations in tumour suppressor genes across tumour types using TCGA and PCAWG datasets. We found potential candidates for Dominant Negative Mutations. The study was carried forward to understand their position and function on their respective protein structures.
+The products of Dominant-negative mutation (DNM) affect wild-type allele’s lfunction. DNMs in tumour suppressor genes have been reported in multiple cancers and they can drive tumour progression. My work involved fishing and understanding the nature of Dominant Negative Mutations in tumour suppressor genes across tumour types using TCGA exome data. We found potential candidates for Dominant Negative Mutations. The study was carried forward to understand their position and function on their respective protein structures.
 
 **************************************************************************
 ## Indian Institute of Science Education and Research (IISER), Pune, India  
@@ -46,6 +46,8 @@ Supervisor: Dr. Rahul Siddharthan
 Position: Research Intern (May 2015 – July 2015)
 Project: Computational prediction and characterization of regulatory sites and cis-regulatory modules
 
-I studied computational prediction and characterisation of regulatory sites and cis-regulatory modules. The project involved prototype development (BLAST) and understanding the mathematical background of different alignment softwares. For prototype development, I used Python and probability-based models for predicting transcription factor (TF) binding sites.
+I learned Python programming and worked on building models for predicting transcription-factor binding sites (Wasserman, W. W., & Sandelin, A. (2004)).
+
+
 
 
