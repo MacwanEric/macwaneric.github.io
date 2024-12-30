@@ -12,9 +12,6 @@ redirect_from:
 
 Hi! I’m Eric. I received my B.Sc. and M.Sc in cell and molecular biology from Dr. Vikram Sarabhai Institute of Cell and Molecular Biology at the [Maharaja Sayajirao University of Baroda](https://www.msubaroda.ac.in/Dr_Vikram_Sarabhai_Institute_of_Cell_and_Molecular_Biology), Vadodara, India in 2018. After receiving my M.Sc. degree, I was employed in Dr. Sabarinathan Radhakrishnan's lab at [National Centre for Biological Sciences (NCBS)](https://www.ncbs.res.in/faculty/sabari) as a graduate trainee. I’m a trained molecular biologist with a background in bioinformatics.
 
-## Inspiration 
-While working in the cancer genomics lab I developed a keen interest in understanding tumour evolution for building better early detection methods and treatment approaches. Analysis of driver mutations across different cancer types has shown that early clonal mutations have less diversity than late subclonal mutations. 30% of tumours in the study conducted by Gerstung et. al. (2020) had a whole-genome duplication event several decades before diagnosis, which gives a window for early cancer detection! 	This is an interesting study and it is also the reason for my motivation to pursue a doctoral position.
-
 ## My reading habits
 I try to select papers that help me achieve a specific aim. As papers don't explain everything, I first try to identify common concepts and techniques. I use review articles to study different schools of thought in the field. This helps to put outcomes from different articles into perspective and helps me stay up-to-date on the research. I focus my attention on breakthrough papers for gaining insights into the most recent developments and think of ways to go a step further. I also use Twitter to stay up-to-date on the latest developments.
 
