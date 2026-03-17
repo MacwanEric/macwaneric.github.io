@@ -59,7 +59,7 @@
     count: 86,
     maxSpeed: 0.26,
     linkDist: 125,
-    alpha: 0.72,
+    alpha: 0.78,
   };
 
   let dpr = Math.min(window.devicePixelRatio || 1, 2);

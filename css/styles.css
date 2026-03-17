@@ -98,15 +98,7 @@ a {
 }
 
 #spotlight {
-  position: absolute;
-  inset: -20%;
-  background: radial-gradient(420px 420px at var(--sx, 50%) var(--sy, 30%),
-      var(--spot-a) 0%,
-      var(--spot-b) 22%,
-      rgba(11, 11, 16, 0) 62%);
-  filter: blur(0px);
-  transition: opacity var(--t-mid);
-  opacity: 0;
+  display: none;
 }
 
 .grain {
