@@ -46,41 +46,20 @@
   const initialTheme = getSavedTheme() ?? getSystemTheme();
   applyTheme(initialTheme);
 
-  // ----- Spotlight (cursor-follow) -----
-  const spotlight = document.getElementById('spotlight');
+  // Spotlight is intentionally disabled in this version (no cursor-follow glow).
+  // Keep lastSpotX/Y as a stable reference for the subtle particle “attention” gradient.
   let lastSpotX = 0.5;
-  let lastSpotY = 0.3;
-
-  function setSpotlight(x, y) {
-    if (!spotlight) return;
-    spotlight.style.setProperty('--sx', `${(x * 100).toFixed(2)}%`);
-    spotlight.style.setProperty('--sy', `${(y * 100).toFixed(2)}%`);
-  }
-
-  function onPointerMove(e) {
-    const x = (e.clientX ?? window.innerWidth * 0.5) / window.innerWidth;
-    const y = (e.clientY ?? window.innerHeight * 0.3) / window.innerHeight;
-    lastSpotX = x;
-    lastSpotY = y;
-    setSpotlight(x, y);
-  }
-
-  if (!prefersReducedMotion) {
-    window.addEventListener('pointermove', onPointerMove, { passive: true });
-    setSpotlight(lastSpotX, lastSpotY);
-  } else {
-    setSpotlight(0.5, 0.25);
-  }
+  let lastSpotY = 0.35;
 
   // ----- Particles (canvas constellation) -----
   const canvas = document.getElementById('particles');
   const ctx = canvas?.getContext?.('2d') ?? null;
 
   const config = {
-    count: 70,
-    maxSpeed: 0.22,
-    linkDist: 110,
-    alpha: 0.55,
+    count: 86,
+    maxSpeed: 0.26,
+    linkDist: 125,
+    alpha: 0.72,
   };
 
   let dpr = Math.min(window.devicePixelRatio || 1, 2);
