@@ -1,44 +1,91 @@
-# Eric Macwan — Researcher Portfolio
+# macwaneric.github.io — Eric Macwan
 
-A modern, single-page researcher portfolio with smooth transitions and subtle sparkling effects.
+Your GitHub Pages portfolio site: modern, cinematic, and built as simple static files (no build step).
+
+## Pages
+
+- **`index.html`**: Research portfolio (Overview, Focus, Selected work, Publications, Writing, Contact)
+- **`about.html`**: “Everything about me” page (Media + Now updates)
 
 ## Structure
 
 ```
-test2/
-├── index.html          # Main page (About, Research, Publications, Experience, Contact)
+macwaneric.github.io/
+├── index.html
+├── about.html
 ├── css/
-│   └── styles.css      # Layout, theme, transitions, sparkle animations
+│   └── styles.css
 ├── js/
-│   └── main.js         # Sparkles, scroll-in animations, nav behavior
-└── README.md           # This file
+│   └── main.js
+├── assets/
+│   └── .gitkeep
+└── README.md
 ```
 
 ## Run locally
 
-Open `index.html` in a browser, or serve the folder:
+Open `index.html` directly, or serve the folder:
 
 ```bash
-# Python 3
+cd "/Users/emacwan/Documents/projects/macwaneric.github.io"
 python3 -m http.server 8080
-
-# Node (npx)
-npx serve .
 ```
 
-Then visit `http://localhost:8080` (or the port shown).
+Then visit `http://localhost:8080`.
 
-## Customize
+## Deploy (GitHub Pages)
 
-- **Content**: Edit `index.html` — replace placeholder text, publication titles, experience, and contact links (email, Google Scholar, LinkedIn, ORCID).
-- **Photo**: Add a profile image by giving `.about-image` a `background-image` in `css/styles.css`, or replace the div with an `<img>` and style it.
-- **Colors**: Change CSS variables in `:root` in `css/styles.css` (e.g. `--accent`, `--bg-deep`).
+This repo name matches the required format for a user site: `macwaneric.github.io`.
+
+- Push to GitHub on the `main` branch
+- GitHub → **Repo Settings** → **Pages**
+  - Source: **Deploy from a branch**
+  - Branch: **main** / **root**
+
+Your site will be available at `https://macwaneric.github.io`.
+
+## Customize content
+
+- **Homepage sections**: edit `index.html`
+  - Update **Selected work**, **Publications**, and **Writing** links (`href="#"`) to real URLs (PDF/DOI/code/articles).
+  - Update contact email (`eric@example.com`) and your social links.
+- **About page**: edit `about.html`
+  - Add photos/videos in **Media**
+  - Keep **Now** short and updated (this makes the site feel alive)
+
+## Add photos and videos
+
+- Put files in **`assets/`**, then reference them in HTML.
+
+### Photo example
+
+```html
+<img class="inline-media" src="assets/my-photo.jpg" alt="Eric at a conference">
+```
+
+### Video example (local MP4)
+
+```html
+<video class="inline-media" controls playsinline src="assets/talk-demo.mp4"></video>
+```
+
+### Video example (YouTube embed)
+
+```html
+<iframe
+  class="inline-media"
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  title="Talk"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+```
 
 ## Features
 
-- Dark theme with gold/amber accent
-- Floating sparkle effect (CSS + JS)
-- Scroll-triggered fade-in for sections and cards
-- Sticky header with blur
-- Responsive layout and mobile menu
-- Smooth scroll and hover transitions
+- **Light/Dark mode** (saved in `localStorage`, falls back to system preference)
+- Cursor-following **spotlight**
+- Canvas **particle constellation**
+- Smooth scroll reveal transitions
+- Responsive layout and mobile navigation

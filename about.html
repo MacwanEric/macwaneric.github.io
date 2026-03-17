@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Eric Macwan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..700,50..100&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="fx" aria-hidden="true">
+    <div id="spotlight"></div>
+    <canvas id="particles"></canvas>
+    <div class="grain"></div>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html#top" class="nav-logo" aria-label="Home">Eric Macwan</a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">Overview</a></li>
+        <li><a href="index.html#selected">Work</a></li>
+        <li><a href="index.html#writing">Writing</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#now">Now</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-label="Switch to light mode"
+          aria-pressed="false"
+        >
+          <span class="theme-toggle-icon" aria-hidden="true"></span>
+          <span class="theme-toggle-text">Theme</span>
+        </button>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <div class="page-kicker" data-reveal>
+          <span class="pill">About</span>
+          <span class="hero-kicker-dot" aria-hidden="true"></span>
+          <span class="muted">The human layer: what I’m building, learning, and sharing</span>
+        </div>
+
+        <h1 class="page-title" data-reveal>Everything about me</h1>
+        <p class="page-subtitle" data-reveal>
+          Use this page to share articles, photos, talks, behind-the-scenes work, and short updates. It’s the “people” page—easy to browse and always current.
+        </p>
+
+        <div class="page-cta" data-reveal>
+          <a class="btn btn-primary" href="index.html#contact">Reach out</a>
+          <a class="btn btn-ghost" href="index.html#selected">See research</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2 class="section-title">Media</h2>
+          <p class="section-desc">
+            Add photos, figures, event snapshots, demo videos, and talk recordings. Put files in <code>assets/</code> and link them here.
+          </p>
+        </div>
+
+        <div class="media-grid" data-reveal>
+          <figure class="media-card">
+            <div class="media-thumb media-thumb--photo" role="img" aria-label="Photo placeholder"></div>
+            <figcaption class="media-cap">
+              <div class="media-title">Photo caption</div>
+              <div class="media-meta">Conference / lab / fieldwork • Year</div>
+            </figcaption>
+          </figure>
+
+          <figure class="media-card">
+            <div class="media-thumb media-thumb--video">
+              <div class="media-embed">
+                <div class="media-embed-note">
+                  Add a YouTube/Vimeo embed here, or link a local MP4 in <code>assets/</code>.
+                </div>
+              </div>
+            </div>
+            <figcaption class="media-cap">
+              <div class="media-title">Talk or demo</div>
+              <div class="media-meta">Title • Venue • Year</div>
+            </figcaption>
+          </figure>
+
+          <figure class="media-card">
+            <div class="media-thumb media-thumb--photo" role="img" aria-label="Photo placeholder"></div>
+            <figcaption class="media-cap">
+              <div class="media-title">Behind the scenes</div>
+              <div class="media-meta">What’s happening in this moment</div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="now" class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2 class="section-title">Now</h2>
+          <p class="section-desc">
+            A short, regularly updated section: what you’re focused on, what you’re reading, and what you’re excited about.
+          </p>
+        </div>
+
+        <div class="now-grid">
+          <article class="now-card" data-reveal>
+            <div class="now-title">Current focus</div>
+            <p class="now-text">Write 2–3 lines about what you’re building or investigating right now.</p>
+            <div class="now-meta">Updated: Month YYYY</div>
+          </article>
+
+          <article class="now-card" data-reveal>
+            <div class="now-title">On the radar</div>
+            <p class="now-text">Conferences, submissions, collaborations, or learning goals you’re pursuing.</p>
+            <div class="now-meta">Next: Month YYYY</div>
+          </article>
+
+          <article class="now-card" data-reveal>
+            <div class="now-title">Recommendations</div>
+            <p class="now-text">A book/paper/tool you genuinely recommend—something that signals taste.</p>
+            <div class="now-meta">1–3 items max</div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Eric Macwan.</p>
+      <p class="muted"><a class="link" href="index.html#top">Back to portfolio</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
