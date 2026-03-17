@@ -221,22 +221,26 @@ main {
 }
 
 .theme-toggle {
+  appearance: none;
+  -webkit-appearance: none;
   display: inline-flex;
   align-items: center;
   gap: 0.55rem;
   padding: 0.55rem 0.75rem;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.10);
-  background: rgba(255, 255, 255, 0.04);
-  color: rgba(255, 255, 255, 0.82);
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
   cursor: pointer;
+  font: inherit;
+  line-height: 1;
   transition: transform var(--t-fast), background var(--t-mid), border-color var(--t-mid), color var(--t-mid);
 }
 
 .theme-toggle:hover {
   transform: translateY(-1px);
   border-color: rgba(216, 180, 90, 0.22);
-  background: rgba(255, 255, 255, 0.06);
+  background: var(--panel-strong);
 }
 
 .theme-toggle:active { transform: translateY(0); }
@@ -257,15 +261,8 @@ main {
   letter-spacing: 0.01em;
 }
 
-[data-theme="light"] .theme-toggle {
-  border-color: rgba(10, 10, 12, 0.16);
-  background: rgba(10, 10, 12, 0.03);
-  color: rgba(10, 10, 12, 0.82);
-}
-
 [data-theme="light"] .theme-toggle:hover {
   border-color: rgba(216, 180, 90, 0.34);
-  background: rgba(10, 10, 12, 0.05);
 }
 
 .nav-logo {
@@ -280,7 +277,7 @@ main {
 
 .nav-logo:hover {
   transform: translateY(-1px);
-  color: rgba(255, 255, 255, 1);
+  color: var(--text);
 }
 
 .nav-links {
@@ -395,7 +392,7 @@ main {
   margin: 0;
   max-width: 70ch;
   font-size: clamp(1.05rem, 2.1vw, 1.25rem);
-  color: rgba(255, 255, 255, 0.72);
+  color: var(--muted);
 }
 
 .hero-cta {
@@ -435,13 +432,13 @@ main {
 }
 
 .btn-ghost {
-  background: rgba(255, 255, 255, 0.04);
-  color: rgba(255, 255, 255, 0.86);
-  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--border);
 }
 
 .btn-ghost:hover {
-  background: rgba(255, 255, 255, 0.06);
+  background: var(--panel-strong);
   border-color: rgba(216, 180, 90, 0.25);
   box-shadow: 0 14px 60px rgba(0, 0, 0, 0.35);
   transform: translateY(-1px);
@@ -493,7 +490,7 @@ main {
   font-size: 0.72rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.62);
+  color: var(--muted);
 }
 
 @keyframes scrollLine {
@@ -521,7 +518,7 @@ main {
   aspect-ratio: 4 / 5;
   background:
     radial-gradient(800px 420px at 35% 20%, rgba(216, 180, 90, 0.18), transparent 55%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+    linear-gradient(180deg, var(--panel-strong), var(--panel));
 }
 
 .portrait-caption {
@@ -542,13 +539,13 @@ main {
 
 .prose .lead {
   font-size: 1.12rem;
-  color: rgba(255, 255, 255, 0.84);
+  color: var(--text);
   margin-top: 0;
 }
 
 .prose p {
   margin: 0 0 1rem;
-  color: rgba(255, 255, 255, 0.68);
+  color: var(--muted);
 }
 
 .badge-row {
@@ -598,7 +595,7 @@ main {
 
 .tile-mark {
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--faint);
   letter-spacing: 0.12em;
 }
 
@@ -608,7 +605,7 @@ main {
   border-radius: 999px;
   border: 1px solid rgba(216, 180, 90, 0.22);
   background: rgba(216, 180, 90, 0.08);
-  color: rgba(255, 255, 255, 0.76);
+  color: var(--text);
 }
 
 .tile h3 {
@@ -622,7 +619,7 @@ main {
 
 .tile p {
   margin: 0;
-  color: rgba(255, 255, 255, 0.68);
+  color: var(--muted);
 }
 
 /* ----- Selected work ----- */
@@ -736,7 +733,7 @@ main {
 }
 
 .link:hover {
-  color: rgba(255, 255, 255, 0.92);
+  color: var(--text);
   border-bottom-color: rgba(216, 180, 90, 0.58);
 }
 
@@ -763,7 +760,7 @@ main {
 }
 
 .contact-label {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--muted);
   font-size: 0.82rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -772,12 +769,12 @@ main {
 .contact-value {
   margin-top: 0.45rem;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.88);
+  color: var(--text);
 }
 
 /* ----- Footer ----- */
 .site-footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--border);
   padding: 2.2rem 0;
   position: relative;
   z-index: 1;
@@ -788,7 +785,7 @@ main {
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
-  color: rgba(255, 255, 255, 0.62);
+  color: var(--muted);
 }
 
 .footer-inner p {

@@ -215,7 +215,7 @@
     const cy = lastSpotY * height;
     const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, 260);
     grad.addColorStop(0, rgba(accent2Rgb, 0.06 * config.alpha));
-    grad.addColorStop(1, 'rgba(143,211,255,0)');
+    grad.addColorStop(1, rgba(accent2Rgb, 0));
     ctx.fillStyle = grad;
     ctx.fillRect(0, 0, width, height);
   }
