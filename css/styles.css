@@ -16,6 +16,11 @@
   --accent2: #8fd3ff;
   --shadow: rgba(0, 0, 0, 0.55);
   --max: 1120px;
+  --dot: rgba(255, 255, 255, 1);
+  --spot-a: rgba(216, 180, 90, 0.14);
+  --spot-b: rgba(216, 180, 90, 0.07);
+  --grad-a: rgba(216, 180, 90, 0.14);
+  --grad-b: rgba(143, 211, 255, 0.08);
 
   --font-sans: "Sora", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   --font-display: "Fraunces", ui-serif, Georgia, "Times New Roman", Times, serif;
@@ -27,6 +32,25 @@
   --t-slow: 0.9s var(--ease-out);
 
   --radius: 14px;
+}
+
+[data-theme="light"] {
+  --bg0: #f7f6f3;
+  --bg1: #ecebe6;
+  --panel: rgba(10, 10, 12, 0.04);
+  --panel-strong: rgba(10, 10, 12, 0.06);
+  --border: rgba(10, 10, 12, 0.14);
+  --text: rgba(10, 10, 12, 0.92);
+  --muted: rgba(10, 10, 12, 0.64);
+  --faint: rgba(10, 10, 12, 0.45);
+  --shadow: rgba(0, 0, 0, 0.16);
+  --dot: rgba(10, 10, 12, 1);
+
+  /* keep the same “prestige” accent, but make the glow brighter on light */
+  --spot-a: rgba(216, 180, 90, 0.22);
+  --spot-b: rgba(216, 180, 90, 0.10);
+  --grad-a: rgba(216, 180, 90, 0.18);
+  --grad-b: rgba(143, 211, 255, 0.12);
 }
 
 *,
@@ -43,8 +67,8 @@ body {
   margin: 0;
   font-family: var(--font-sans);
   color: var(--text);
-  background: radial-gradient(1200px 800px at 50% -10%, rgba(216, 180, 90, 0.14), transparent 55%),
-              radial-gradient(900px 500px at 85% 10%, rgba(143, 211, 255, 0.08), transparent 55%),
+  background: radial-gradient(1200px 800px at 50% -10%, var(--grad-a), transparent 55%),
+              radial-gradient(900px 500px at 85% 10%, var(--grad-b), transparent 55%),
               linear-gradient(180deg, var(--bg0), var(--bg1));
   min-height: 100vh;
   overflow-x: hidden;
@@ -77,8 +101,8 @@ a {
   position: absolute;
   inset: -20%;
   background: radial-gradient(420px 420px at var(--sx, 50%) var(--sy, 30%),
-      rgba(216, 180, 90, 0.14) 0%,
-      rgba(216, 180, 90, 0.07) 22%,
+      var(--spot-a) 0%,
+      var(--spot-b) 22%,
       rgba(11, 11, 16, 0) 62%);
   filter: blur(0px);
   transition: opacity var(--t-mid);
@@ -95,6 +119,11 @@ a {
   opacity: 0.08;
   transform: translateZ(0);
   animation: grainMove 10s steps(2) infinite;
+}
+
+[data-theme="light"] .grain {
+  mix-blend-mode: multiply;
+  opacity: 0.06;
 }
 
 @keyframes grainMove {
@@ -165,6 +194,16 @@ main {
   border-bottom-color: rgba(255, 255, 255, 0.09);
 }
 
+[data-theme="light"] .site-header {
+  background: rgba(247, 246, 243, 0.62);
+  border-bottom-color: rgba(10, 10, 12, 0.10);
+}
+
+[data-theme="light"] .site-header.scrolled {
+  background: rgba(247, 246, 243, 0.92);
+  border-bottom-color: rgba(10, 10, 12, 0.14);
+}
+
 .nav {
   max-width: var(--max);
   margin: 0 auto;
@@ -175,13 +214,67 @@ main {
   gap: 1.25rem;
 }
 
+.nav-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.82);
+  cursor: pointer;
+  transition: transform var(--t-fast), background var(--t-mid), border-color var(--t-mid), color var(--t-mid);
+}
+
+.theme-toggle:hover {
+  transform: translateY(-1px);
+  border-color: rgba(216, 180, 90, 0.22);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.theme-toggle:active { transform: translateY(0); }
+
+.theme-toggle-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(216, 180, 90, 0.95), rgba(216, 180, 90, 0.25)),
+    radial-gradient(circle at 70% 70%, rgba(143, 211, 255, 0.65), rgba(143, 211, 255, 0.0));
+  box-shadow: 0 0 18px rgba(216, 180, 90, 0.18);
+}
+
+.theme-toggle-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+[data-theme="light"] .theme-toggle {
+  border-color: rgba(10, 10, 12, 0.16);
+  background: rgba(10, 10, 12, 0.03);
+  color: rgba(10, 10, 12, 0.82);
+}
+
+[data-theme="light"] .theme-toggle:hover {
+  border-color: rgba(216, 180, 90, 0.34);
+  background: rgba(10, 10, 12, 0.05);
+}
+
 .nav-logo {
   font-family: var(--font-sans);
   font-weight: 650;
   letter-spacing: 0.04em;
   text-decoration: none;
   font-size: 0.98rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text);
   transition: transform var(--t-fast), color var(--t-fast);
 }
 
@@ -223,7 +316,7 @@ main {
 }
 
 .nav-links a:hover {
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text);
 }
 
 .nav-links a:hover::after {
@@ -243,7 +336,7 @@ main {
 .nav-toggle span {
   width: 26px;
   height: 2px;
-  background: rgba(255, 255, 255, 0.86);
+  background: var(--text);
   transition: transform var(--t-fast), opacity var(--t-fast);
 }
 
@@ -272,10 +365,10 @@ main {
   align-items: center;
   padding: 0.42rem 0.7rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--panel);
+  border: 1px solid var(--border);
   box-shadow: 0 10px 40px var(--shadow);
-  color: rgba(255, 255, 255, 0.86);
+  color: var(--text);
   font-size: 0.8rem;
 }
 
@@ -364,8 +457,8 @@ main {
 .metric {
   border-radius: var(--radius);
   padding: 1.1rem 1.1rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--panel);
+  border: 1px solid var(--border);
 }
 
 .metric-value {
@@ -418,8 +511,8 @@ main {
 
 .portrait-card {
   border-radius: var(--radius);
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--panel);
+  border: 1px solid var(--border);
   overflow: hidden;
   box-shadow: 0 20px 70px rgba(0, 0, 0, 0.35);
 }
@@ -433,7 +526,7 @@ main {
 
 .portrait-caption {
   padding: 1.1rem 1.1rem 1.2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--border);
   display: grid;
   gap: 0.2rem;
 }
@@ -469,9 +562,9 @@ main {
   display: inline-flex;
   padding: 0.5rem 0.7rem;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.10);
-  background: rgba(255, 255, 255, 0.03);
-  color: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--muted);
   font-size: 0.85rem;
 }
 
@@ -485,8 +578,8 @@ main {
 .tile {
   border-radius: var(--radius);
   padding: 1.35rem 1.25rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: var(--panel);
+  border: 1px solid var(--border);
   transition: transform var(--t-mid), border-color var(--t-mid), box-shadow var(--t-mid);
 }
 
@@ -546,15 +639,15 @@ main {
   gap: 1rem;
   padding: 1.15rem 1.25rem;
   border-radius: var(--radius);
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: var(--panel);
+  border: 1px solid var(--border);
   transition: transform var(--t-mid), border-color var(--t-mid), background var(--t-mid);
 }
 
 .work:hover {
   transform: translateY(-4px);
   border-color: rgba(216, 180, 90, 0.25);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--panel-strong);
 }
 
 .work-title {
@@ -564,7 +657,7 @@ main {
 
 .work-meta {
   margin-top: 0.3rem;
-  color: rgba(255, 255, 255, 0.62);
+  color: var(--muted);
   font-size: 0.92rem;
 }
 
@@ -579,8 +672,8 @@ main {
   font-size: 0.78rem;
   padding: 0.35rem 0.6rem;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.10);
-  color: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border);
+  color: var(--muted);
   background: rgba(0, 0, 0, 0.15);
 }
 
@@ -608,8 +701,8 @@ main {
   gap: 1.2rem;
   padding: 1.15rem 1.25rem;
   border-radius: var(--radius);
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--panel);
+  border: 1px solid var(--border);
 }
 
 .pub-year {
@@ -624,7 +717,7 @@ main {
 
 .pub-venue {
   margin-top: 0.25rem;
-  color: rgba(255, 255, 255, 0.62);
+  color: var(--muted);
   font-size: 0.92rem;
 }
 
@@ -636,7 +729,7 @@ main {
 }
 
 .link {
-  color: rgba(255, 255, 255, 0.78);
+  color: var(--text);
   text-decoration: none;
   border-bottom: 1px solid rgba(216, 180, 90, 0.28);
   transition: color var(--t-fast), border-color var(--t-fast);
@@ -658,8 +751,8 @@ main {
   text-decoration: none;
   padding: 1.2rem 1.1rem;
   border-radius: var(--radius);
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: var(--panel);
+  border: 1px solid var(--border);
   transition: transform var(--t-mid), border-color var(--t-mid), box-shadow var(--t-mid);
 }
 

@@ -7,6 +7,44 @@
   'use strict';
 
   const prefersReducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches ?? false;
+  const storageKey = 'em-theme';
+
+  // ----- Theme (light/dark) -----
+  const themeToggle = document.getElementById('theme-toggle');
+
+  function getSystemTheme() {
+    const prefersLight = window.matchMedia?.('(prefers-color-scheme: light)')?.matches ?? false;
+    return prefersLight ? 'light' : 'dark';
+  }
+
+  function getSavedTheme() {
+    try {
+      const v = window.localStorage?.getItem(storageKey);
+      return v === 'light' || v === 'dark' ? v : null;
+    } catch {
+      return null;
+    }
+  }
+
+  function setSavedTheme(theme) {
+    try {
+      window.localStorage?.setItem(storageKey, theme);
+    } catch {
+      // ignore storage failures
+    }
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    const isLight = theme === 'light';
+    if (themeToggle) {
+      themeToggle.setAttribute('aria-pressed', String(isLight));
+      themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+    }
+  }
+
+  const initialTheme = getSavedTheme() ?? getSystemTheme();
+  applyTheme(initialTheme);
 
   // ----- Spotlight (cursor-follow) -----
   const spotlight = document.getElementById('spotlight');
@@ -49,6 +87,54 @@
   let width = 0;
   let height = 0;
   const particles = [];
+
+  function getCssVar(name, fallback = '') {
+    const v = getComputedStyle(document.documentElement).getPropertyValue(name)?.trim();
+    return v || fallback;
+  }
+
+  function parseColorToRgb(input) {
+    const s = String(input).trim();
+    if (!s) return null;
+
+    // rgba() / rgb()
+    const m = s.match(/^rgba?\(\s*([\d.]+)\s*,\s*([\d.]+)\s*,\s*([\d.]+)(?:\s*,\s*[\d.]+)?\s*\)$/i);
+    if (m) return { r: Number(m[1]), g: Number(m[2]), b: Number(m[3]) };
+
+    // hex
+    if (s[0] === '#') {
+      const hex = s.slice(1);
+      if (hex.length === 3) {
+        const r = parseInt(hex[0] + hex[0], 16);
+        const g = parseInt(hex[1] + hex[1], 16);
+        const b = parseInt(hex[2] + hex[2], 16);
+        return { r, g, b };
+      }
+      if (hex.length === 6) {
+        const r = parseInt(hex.slice(0, 2), 16);
+        const g = parseInt(hex.slice(2, 4), 16);
+        const b = parseInt(hex.slice(4, 6), 16);
+        return { r, g, b };
+      }
+    }
+    return null;
+  }
+
+  function rgba({ r, g, b }, a) {
+    return `rgba(${Math.round(r)},${Math.round(g)},${Math.round(b)},${a})`;
+  }
+
+  let dotRgb = { r: 255, g: 255, b: 255 };
+  let accentRgb = { r: 216, g: 180, b: 90 };
+  let accent2Rgb = { r: 143, g: 211, b: 255 };
+
+  function refreshThemeColors() {
+    dotRgb = parseColorToRgb(getCssVar('--dot', 'rgba(255,255,255,1)')) ?? dotRgb;
+    accentRgb = parseColorToRgb(getCssVar('--accent', '#d8b45a')) ?? accentRgb;
+    accent2Rgb = parseColorToRgb(getCssVar('--accent2', '#8fd3ff')) ?? accent2Rgb;
+  }
+
+  refreshThemeColors();
 
   function rand(min, max) {
     return min + Math.random() * (max - min);
@@ -96,7 +182,7 @@
     ctx.clearRect(0, 0, width, height);
 
     // base dots
-    ctx.fillStyle = `rgba(255,255,255,${0.35 * config.alpha})`;
+    ctx.fillStyle = rgba(dotRgb, 0.30 * config.alpha);
     for (const p of particles) {
       ctx.beginPath();
       ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
@@ -114,7 +200,7 @@
         if (d2 < config.linkDist * config.linkDist) {
           const d = Math.sqrt(d2);
           const t = 1 - d / config.linkDist;
-          ctx.strokeStyle = `rgba(216,180,90,${0.22 * t * config.alpha})`;
+          ctx.strokeStyle = rgba(accentRgb, 0.22 * t * config.alpha);
           ctx.lineWidth = 1;
           ctx.beginPath();
           ctx.moveTo(a.x, a.y);
@@ -128,7 +214,7 @@
     const cx = lastSpotX * width;
     const cy = lastSpotY * height;
     const grad = ctx.createRadialGradient(cx, cy, 0, cx, cy, 260);
-    grad.addColorStop(0, `rgba(143,211,255,${0.06 * config.alpha})`);
+    grad.addColorStop(0, rgba(accent2Rgb, 0.06 * config.alpha));
     grad.addColorStop(1, 'rgba(143,211,255,0)');
     ctx.fillStyle = grad;
     ctx.fillRect(0, 0, width, height);
@@ -153,6 +239,17 @@
     resizeCanvas();
     seedParticles();
     drawParticles();
+  }
+
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme') || 'dark';
+      const next = current === 'light' ? 'dark' : 'light';
+      applyTheme(next);
+      setSavedTheme(next);
+      refreshThemeColors();
+      if (canvas && ctx) drawParticles();
+    });
   }
 
   // ----- Reveal on scroll -----
